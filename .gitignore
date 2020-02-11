@@ -1,0 +1,20 @@
+*.orig
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.idea/
+_ide_helper.php
+.vscode
+
+# composer
+/vendor
+
+# laravel
+/storage/logs
+
+# npm
+node_modules/*
+
+# Homestead
+.vagrant
+Homestead.yaml
