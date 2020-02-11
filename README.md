@@ -3,10 +3,10 @@ Vandna
 
 Things done : 
 
- Data of selected students is exported to file and that file will be saved in project folder at path where server.php is present.
-Created Service for export functionality and used that from controller to perform action.
-Added export history button on view student page at last.
-For view history page, created new table :
+ 1) Data of selected students is exported to file and that file will be saved in project folder at path where server.php is present.
+2) Created Service for export functionality and used that from controller to perform action.
+3) Added export history button on view student page at last.
+4) For view history page, created new table :
 	CREATE TABLE `export_history` (
  	 `id` int unsigned NOT NULL AUTO_INCREMENT,
 	  `export_date` datetime DEFAULT CURRENT_TIMESTAMP,
@@ -16,7 +16,7 @@ For view history page, created new table :
 
 In this table while export is done, data will be saved. Then those ids will be used to display email id’s of selected student on history page.
 
-4) Also created “exportAll” route to export all the content.
+5) Also created “exportAll” route to export all the content.
 
 
 
